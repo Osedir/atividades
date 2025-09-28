@@ -1,0 +1,4 @@
+A ordem final se dará de acordo com o direcionamento das tarefas.
+Aquelas que ficaram na fila, sairão por último, pois são tarefas consideradas sem prioridade.
+As que foram redirecionadas para a pilha, sairão primeiro, pois a pilha dá prioridade as últimas tarefas.
+Saída: Tarefas da pilha (ordem inversa) > Tarefas da fila (ordem direta).

@@ -1,0 +1,2 @@
+No cenário de organização de exames de um hospital, o mais adequado seria utilizar pilha, pois o sistema precisa imprimir os exames na ordem inversa (do último ao primeiro).
+E juntamente com a pilha, implementar uma lista encadeada, pois ela facilita insersões e remoções e é flexíxel em termos de armazenamento de dados.

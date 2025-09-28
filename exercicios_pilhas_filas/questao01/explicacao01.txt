@@ -1,0 +1,1 @@
+A estrutura de dados mais adequada numa edição de texto é a pilha, pois ela desfaz ações de forma inversa, ou seja, começando pela última.
