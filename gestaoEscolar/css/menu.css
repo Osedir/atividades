@@ -1,0 +1,106 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f1f5f9;
+}
+
+
+.pagina {
+  width: calc(100% - 48px);
+  max-width: 420px;
+  margin: auto;
+  padding: 40px 32px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(30, 58, 138, 0.15);
+}
+
+.pagina h1 {
+  margin-bottom: 32px;
+  font-size: 2rem;
+  color: #1e3a8a;
+}
+
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.menu a {
+  display: block;
+  padding: 12px 32px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #1e3a8a;
+  text-decoration: none;
+  border: 2px solid #1e3a8a;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.menu a:hover,
+.menu a:focus {
+  background-color: #1e3a8a;
+  color: #ffffff;
+}
+
+
+.botao-sair {
+  display: block;
+  margin-top: 2rem;
+  padding: 12px 32px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #b91c1c;
+  border: 2px solid #b91c1c;
+  border-radius: 8px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.botao-sair:hover,
+.botao-sair:focus {
+  background-color: #ffffff;
+  color: #b91c1c;
+}
+
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 2rem;
+  margin-top: 24px;
+  padding: 20px 24px;
+  background-color: #1e3a8a;
+}
+
+.rodape a {
+  padding: 4px 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.rodape a:hover,
+.rodape a:focus {
+  border-bottom-color: #ffffff;
+}

@@ -1,0 +1,27 @@
+.pagina .formulario {
+  align-items: stretch;
+}
+
+.pagina .formulario input,
+.pagina .formulario textarea,
+.pagina .formulario button {
+  width: 100%;
+}
+
+.formulario textarea {
+  box-sizing: border-box;
+  min-height: 160px;
+  padding: 12px 16px;
+  font-family: inherit;
+  font-size: 1.2rem;
+  color: #1e293b;
+  background-color: #ffffff;
+  border: 2px solid #1e3a8a;
+  border-radius: 8px;
+  resize: vertical;
+}
+
+.formulario textarea:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.3);
+}
